@@ -1,0 +1,13 @@
+POST  http://localhost:3000/api/v1/account/transfer
+Content-Type: application/json
+token: Bearer eyJhbGciOiJIUzI1NiJ9.bmFtYW4.fWV1pkD6qrRpwN9WxC_aEAIV36RAQzR5BZM1gqtCT_w
+
+{
+    "to":"65c1f8cc8b551c1a866cc759",
+    "amount":27
+}
+
+# {
+#     "username": "naman",
+#     "password":"iamthebadguy"
+# }
